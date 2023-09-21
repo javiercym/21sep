@@ -1,11 +1,13 @@
 body{
-    height: 90vh;
     background-image: url(../media/fondo.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Esto evita que la imagen de fondo se desplace con el contenido */
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 button .btn{
     font-size: 50px;
